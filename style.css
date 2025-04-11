@@ -95,6 +95,11 @@ header .navbar {
     transition: 0.2s ease;
 }
 
+.hero-section .content button a {
+    color: #000;
+    text-decoration: none;
+}
+
 .hero-section .content button:hover {
     color: #fff;
     background: #8ab1a9;
