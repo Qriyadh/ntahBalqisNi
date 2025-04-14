@@ -38,11 +38,6 @@ header .navbar{
 .navbar .logo span{
     color: #8ab1a9;
 }
-.navbar .menu-links{
-    display: flex;
-    gap: 40px;
-    list-style-type: none;
-}
 
 .navbar a{
     color: #fff;
