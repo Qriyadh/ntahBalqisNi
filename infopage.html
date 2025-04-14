@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>infopage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="infopage.css">
+</head>
+<body>
+  <header>
+    <h1>Let's Learn About Web</h1>
+    <p>HTML, CSS, JavaScript & jQuery</p>
+  </header>
+
+  <section class="container">
+    <div class="card">
+      <h2>HTML</h2>
+      <p>HTML is the basic structure of a website. It determines the headings, paragraphs, and layout of the content.</p>
+      <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+    </div>
+    <div class="card">
+      <h2>CSS</h2>
+      <p>CSS adds styles to a website such as colors, layouts and fonts.</p>
+      <button onclick="changeColor()">Change Color</button>
+    </div>
+    <div class="card">
+      <h2>JavaScript</h2>
+      <p>JavaScript adds interactivity such as clicking buttons, animations, and more.</p>
+      <button onclick="changeText()">Klik Me!</button>
+      <p id="demoJS"></p>
+    </div>
+    <div class="card">
+      <h2>jQuery</h2>
+      <p>jQuery makes it easy to write JavaScript with shorter and simpler code.</p>
+      <button id="fadeButton">Text Disappears</button>
+      <p id="demoJQ">I can slowly disappear!</p>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="java.js"></script>
+</body>
+</html>

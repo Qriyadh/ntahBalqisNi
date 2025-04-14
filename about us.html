@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+    <link rel="stylesheet" href="about us .css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Alike&family=Handlee&family=Jost:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans&family=Playpen+Sans:wght@200;300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sometype+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6bd6c771de.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+
+    <section id="team">
+        <div class="team-heading">
+            <h3>THE TEAM</h3>
+        </div>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+
+                <div class="team-box">
+                    <div class="t-b-img">
+                        <img src="yadh.png">
+                    </div>
+                    <div class="t-b-text">
+                        <strong>Muqri Fayyadh</strong>
+                        <span>Developer</span>
+        
+                        <div class="team-social">
+                            <a href="https://www.instagram.com/qriyadh._/">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+    
+                  <div class="swiper-slide">
+    
+                    <div class="team-box">
+                        <div class="t-b-img">
+                            <img src="baqis.png">
+                        </div>
+                        <div class="t-b-text">
+                            <strong>Balqis Qistina</strong>
+                            <span>Developer</span>
+            
+                            <div class="team-social">
+                                <a href="https://www.instagram.com/_baqis/">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              
+            </div>
+          </div>
+
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 20,
+          stretch: -20,
+          depth: 120,
+          modifier: 3,
+          slideShadows: true,
+        },
+      });
+    </script>
+    
+</body>
+</html>
