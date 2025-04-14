@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;
 }
 
 a{
@@ -10,7 +10,46 @@ a{
 }
 
 body{
-    background-color: #3a5a40 ;
+    background-color: #3a5a40;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+
+.navbar .logo span{
+    color: #8ab1a9;
+}
+.navbar .menu-links{
+    display: flex;
+    gap: 40px;
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.navbar a:hover{
+    color: #8ab1a9;
 }
 
 #team{
